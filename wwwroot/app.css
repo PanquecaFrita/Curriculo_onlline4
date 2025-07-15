@@ -211,6 +211,52 @@ p {
     border-bottom: 1px solid #ccc;
     margin: 10px 0;
 }
+
+/*curriculo dudu
+*/
+.curriculoDudu {
+}
+    .curriculoDudu h2 {
+    border-bottom: 2px solid #4a90e2;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    color: #2c3e50;
 }
 
+.curriculoDudu section {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.curriculoDudu .perfil-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.curriculoDudu .perfil-foto {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #4a90e2;
+}
+
+.curriculoDudu .dados-pessoais p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.curriculoDudu ul {
+    padding-left: 20px;
+}
+
+.curriculoDudu ul li {
+    margin-bottom: 8px;
+    line-height: 1.5;
+}
 

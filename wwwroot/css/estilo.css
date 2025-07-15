@@ -1,4 +1,4 @@
-﻿/* Reset básico */
+﻿/*
 * {
     margin: 0;
     padding: 0;
@@ -22,7 +22,6 @@ body {
     overflow: hidden;
 }
 
-/* Lado esquerdo - Perfil */
 .perfil {
     background-color: #1a73e8;
     color: white;
@@ -50,7 +49,6 @@ body {
         margin: 6px 0;
     }
 
-/* Lado direito - Conteúdo */
 .conteudo {
     padding: 30px;
     width: 70%;
@@ -85,3 +83,4 @@ footer p {
     font-size: 13px;
     color: #666;
 }
+*/
