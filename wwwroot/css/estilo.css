@@ -1,2 +1,87 @@
-﻿body {
+﻿/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    padding: 40px;
+}
+
+.curriculo {
+    display: flex;
+    max-width: 1000px;
+    margin: auto;
+    background-color: white;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+/* Lado esquerdo - Perfil */
+.perfil {
+    background-color: #1a73e8;
+    color: white;
+    padding: 30px 20px;
+    width: 30%;
+    text-align: center;
+}
+
+    .perfil img {
+        width: 120px;
+        height: 120px;
+        border-radius: 100%;
+        object-fit: cover;
+        margin-bottom: 15px;
+        border: 3px solid #fff;
+    }
+
+    .perfil h1 {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+
+    .perfil p {
+        font-size: 14px;
+        margin: 6px 0;
+    }
+
+/* Lado direito - Conteúdo */
+.conteudo {
+    padding: 30px;
+    width: 70%;
+}
+
+    .conteudo h2 {
+        color: #1a73e8;
+        margin-bottom: 8px;
+        font-size: 20px;
+        border-bottom: 2px solid #1a73e8;
+        padding-bottom: 4px;
+    }
+
+    .conteudo section {
+        margin-bottom: 25px;
+    }
+
+    .conteudo ul {
+        list-style-type: disc;
+        margin-left: 20px;
+        line-height: 1.6;
+        font-size: 15px;
+    }
+
+    .conteudo p {
+        font-size: 15px;
+        line-height: 1.6;
+    }
+
+footer p {
+    text-align: right;
+    font-size: 13px;
+    color: #666;
 }
